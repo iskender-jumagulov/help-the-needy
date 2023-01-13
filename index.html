@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="/index.html">Главная</a></li>
+      <li><a class="menu__item" href="/html/about.html">О нас</a></li>
+      <li><a class="menu__item" href="/html/map.html">Контакты</a></li>
+      <li><a class="menu__item" href="/html/regus.html">Реквизиты</a></li>
+      <li><a class="menu__item" href="/html/cooperator.html">Управление</a></li>
+    </ul>
+  </div>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Charity</title>
+</head>
+
+<body>
+  <header class="fixed top-0 w-full z-30 bg-white-500 transition-all pt-2 shadow-lg">
+    <nav class="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
+      <div class="col-start-1 col-end-2 flex items-center">
+        <img class="h-16 w-16" src="/img/logo.jpg" alt="" />
+      </div>
+      <ul class="hidden md:flex col-start-4 col-end-8 text-black-500 items-center">
+        <a
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">Главная</a>
+        <a href="/html/about.html"
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">О
+          нас</a>
+        <a href="/html/map.html"
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">Контакты</a>
+        <a href="/html/regus.html"
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">Реквизиты</a>
+        <a href="/html/cooperator.html"
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">Управление</a>
+      </ul>
+      <div class="col-start-10 col-end-12 font-medium flex justify-end items-center">
+        <a class="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all"
+          href="/html/loginl.html">
+          Sign In</a link>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="max-w-screen-xl mt-20 px-8 xl:px-16 mx-auto">
+    <div class="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16">
+      <div class="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+        <h1 class="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+          Протяните руку помощи
+          <br />
+          Для тех, кто нуждается
+        </h1>
+        <p class="text-black-500 mt-4 mb-6">
+          Фонд не только помогает получить необходимую помощь, но и развивает системные проекты, проводит различные
+          мероприятия, а также выступает с законодательными инициативами.
+        </p>
+        <button
+          class="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none undefined">
+          <a href="/html/regus.html ">пожертвовать сейчас</a>
+
+        </button>
+      </div>
+      <div class="flex w-full">
+        <div class="h-full w-full">
+          <img src="./images/image1.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="relative w-full flex bg-gradient-to-b from-gray-100 to-gray-200">
+      <div
+        class="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
+        <div
+          class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
+          <div class="flex mx-auto w-40 sm:w-auto">
+            <div class="flex items-center justify-center bg-orange-200 h-12 w-12 mr-6 rounded-full">
+              <i class="fa-solid fa-hand-holding-dollar text-2xl"></i>
+            </div>
+            <div class="flex flex-col">
+              <p class="text-lg text-black-500 font-bold">Пожертвовать</p>
+              <p class="text-md text-black-400">
+                Вы можете, более детально просмотреть
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
+          <div class="flex mx-auto w-40 sm:w-auto">
+            <div class="flex items-center justify-center bg-orange-200 w-12 h-12 mr-6 rounded-full">
+              <i class="fa-solid fa-handshake-angle text-2xl"></i>
+            </div>
+            <div class="flex flex-col">
+              <p class="text-lg text-black-500 font-bold">Стать волонтером</p>
+              <p class="text-md text-black-400">
+                Вы можете, более детально просмотреть
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
+          <div class="flex mx-auto w-40 sm:w-auto">
+            <div class="flex items-center justify-center bg-orange-200 w-12 h-12 mr-6 rounded-full">
+              <i class="fa-solid fa-hand-holding-dollar text-2xl"></i>
+            </div>
+            <div class="flex flex-col">
+              <p class="text-lg text-black-500 font-bold">
+                Сбор средств
+              </p>
+              <p class="text-md text-black-400">
+                Вы можете, более детально просмотреть
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto">
+    <div class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
+      <div class="flex w-full justify-end mt-8">
+        <div class="h-full w-full p-4">
+          <!-- <div class="image-grid">
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                    </div> -->
+
+          <img src="./images/image2.png" alt="" />
+        </div>
+      </div>
+      <div class="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
+        <h3 class="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+
+        </h3>
+        <p class="my-2 text-black-500">
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full py-14">
+    <div class="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div class="flex flex-col w-full">
+        <h4 class="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
+          
+          Разработка <br>
+           проекта в стадии завершении, ведутся переговоры с инвесторами, готовы сотрудничать с донорными организациями 
+          <br />
+          
+        </h4>
+        <div
+          class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+          <div
+            class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20"
+            style="background-image:url(/img/Комплекс.jpg); width:100%; background-repeat: no-repeat; background-size: contain;">
+            <div class="lg:p-0 mt-4 lg:mt-16">
+              <img src="./images/image3.png" class="object-cover h-48 w-96 ..." alt="" />
+            </div>
+            <h3 class="text-2xl text-black-600 text-center font-medium capitalize my-2 sm:my-7">
+              Этнокультурный образовательный центр «Сопу Ата».
+            </h3>
+            <p class="text-sm text-black-400 mb-4">
+            <ul>
+              <li> Потребность в инвестиционных
+                средствах: 110 000 000$.
+
+
+              </li>
+              <li>Площадь застройки: 25 га.</li>
+              <li>Планируемый срок строительства: 3 года</li>
+            </ul>
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20 "
+            style="background-image:url(/img/2300.jpg); width:100%; background-repeat: no-repeat; background-size: contain;">
+            <div class="lg:p-0 mt-4 lg:mt-16">
+              <img src="./images/image4.jp" class="object-cover h-48 w-96 ..." alt="" />
+            </div>
+            <h3 class="text-2xl text-black-600 text-center font-medium capitalize my-2 sm:my-7">
+              Медико-диагностический центр
+            </h3>
+            <p class="text-sm text-black-400 mb-4">
+              <ul><li> Потребность в инвестиционных
+                средствах: 150 000 000$.
+
+
+              </li>
+              <li>Площадь застройки: 5 га.</li>
+              <li>Планируемый срок строительства: 3 года</li></ul>
+              
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20"
+            style="background-image:url(/img/123.jpg); width:100%; background-repeat: no-repeat; background-size: contain;">
+            <div class="lg:p-0 mt-4 lg:mt-16">
+              <img src="./img/image5.jpg" class="object-cover h-48 w-96 ..." alt="" />
+            </div>
+            <h3 class="text-2xl text-black-600 text-center font-medium capitalize my-2 sm:my-7">
+              Детский сад
+            </h3>
+            <p class="text-sm text-black-400 mb-4">
+            <ul>
+              <li> Потребность в инвестиционных
+                средствах: 1 150 000$.
+
+
+              </li>
+              <li>Площадь застройки: 0.7 га.</li>
+              <li>Планируемый срок строительства: 1 года</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe src="/html/photo.html" width="100%" height="323" frameborder="1"> </iframe>
+
+  <div class="bg-gray-100 pt-8">
+    <div
+      class="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
+      <div class="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start">
+        <div class="col-start-1 col-end-2 flex items-center">
+          <img class="h-12 w-12" src="/img/logo.jpg" alt="" />
+          <h3 class="text-black-600 mx-4 font-medium text-lg">Charity</h3>
+        </div>
+        <p class="mt-4 mb-4">
+          Help-the-needy помощь всем нуждающимся
+        </p>
+        <div class="flex w-full mt-2 mb-8 -mx-2">
+          <div
+            class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+            <a href="https://www.facebook.com/helptheneedycom/posts/2207060116234269/"><i
+                class="fa-brands fa-facebook-f"></i></a>
+          </div>
+
+          <div
+            class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+            <a href="https://instagram.com/help_theneedykg?igshid=YmMyMTA2M2Y="><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
+        <p class="text-black-600 font-medium text-lg">FOUND</p>
+        <ul class="text-black-500">
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            About
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Carrers
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Claims
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Support
+          </li>
+        </ul>
+      </div>
+      <div class="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
+        <p class="text-black-600 font-medium text-lg">LEGAL</p>
+        <ul class="text-black-500">
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Privacy Policy
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Licensing
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Terms & <br />
+            Conditions
+          </li>
+        </ul>
+      </div>
+      <div class="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
+        <p class="text-black-600 font-medium text-lg">SUPPORT</p>
+        <ul class="text-black-500">
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Help Center
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Contact Us
+          </li>
+          <li class="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            Blog
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-gray-700 p-8 mt-8" style="background: rgb(0, 0, 0, 0.1)">
+      © 2022 Copyright:
+      <a class="text-gray-800" href="">Charity Foundation</a>
+    </div>
+  </div>
+</body>
+
+</html>
