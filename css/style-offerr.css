@@ -1,0 +1,905 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #22679f;
+    font-family: 'Rodoto', sans-serif;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    width: 100%;
+    min-height: 40%;
+}
+
+.icons p {
+    width: 300px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.icons1 p {
+    width: 300px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.icons {
+    color: #fff;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.icons1 {
+    color: #fff;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.icons h3 {
+    color: #fff;
+}
+
+.icons1 h3 {
+    color: #fff;
+}
+
+.header {
+    position: static;
+    width: 100%;
+}
+
+.section {
+    padding-top: 85px;
+}
+
+.section-offer {
+    background-image: url(images/home-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.offer-about-info {
+    margin: auto;
+    display: flex;
+    width: 70%;
+    padding-top: 50px;
+}
+
+.offer-about-text {
+    width: 50%;
+}
+
+.offer-about-info h1 {
+    margin: auto;
+    color: #FFD52E;
+    font-size: 40px;
+    width: 100%;
+    line-height: 87px;
+}
+
+.offer-about-info p {
+    margin: auto;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.offer-icons {
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    padding-top: 250px;
+    padding-bottom: 220px;
+}
+
+.offer-btn {
+    position: relative;
+    background: none;
+    border: 2px solid #FFD52E;
+}
+
+.offer-btn a {
+    display: block;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFD52E;
+}
+
+.offer-btn:hover {
+    background: #FFD52E;
+    color: #030303;
+}
+
+.offer-btn:hover>a {
+    color: #030303;
+    color: #4a4a4a;
+}
+
+.icon-text {
+    color: black;
+}
+
+.advantages-icon {
+    text-align: center;
+    width: 20%;
+    color: #4a4a4a;
+}
+
+.icon-hr {
+    width: 200px;
+    margin: auto;
+    margin-top: -15px;
+    padding: 0;
+    height: 2px;
+    border: none;
+    background: #FFD52E;
+}
+
+.advantages-icon h4 {
+    text-align: center;
+}
+
+.advantages {
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    width: 60%;
+    color: #999999;
+}
+
+.advantages-laptop {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.advantages-laptop img {
+    margin: 0;
+    padding: 0;
+}
+
+.section h2 {
+    text-align: center;
+    color: #256292;
+    padding-bottom: 30px;
+}
+
+.bot-icon {
+    width: 300px;
+    margin: auto;
+    height: 150px;
+    padding-top: 30px;
+}
+
+
+/* Стили для новостной ленты */
+
+.section-news {
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    background-image: url(images/news-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -50;
+}
+
+.news {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.news-info {
+    width: 30%;
+    margin: 15px;
+    margin: auto;
+    transition: all .6s;
+}
+
+.news-img {
+    width: 30%;
+}
+
+.news-img img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-frame {
+    width: 30%;
+    margin: 15px;
+}
+
+.news-frame p,
+h4 {
+    width: 450px;
+}
+
+.news-btn {
+    position: relative;
+    background: #FFD52E;
+    border: 1px solid #FFD52E;
+}
+
+.news-btn a {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* css for frame  */
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+
+/* стили для ТОП СТУДЕНТОВ */
+
+.top-students {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.students,
+.students h4 {
+    width: 300px;
+    text-align: center;
+    color: black;
+}
+
+.students {
+    margin: auto;
+}
+
+.students img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/* Стили для Наши парнёры */
+
+.section-partners {
+    background: #dfdfdf;
+}
+
+.top-partners {
+    display: flex;
+}
+
+.partners {
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Стили для футера */
+
+footer {
+    background: #22679f;
+    display: flex;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+}
+
+footer h4 {
+    color: #fff;
+    width: 150px;
+    line-height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+    width: 170px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-networks {
+    width: 30%;
+    margin-top: 75px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.social-networks img {
+    width: 50px;
+}
+
+.social-networks div p {
+    opacity: 0;
+    transition: all .3s;
+    transform: rotate(90deg);
+    position: relative;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-networks div {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 25px;
+}
+
+.social-networks div:hover p {
+    opacity: 1;
+    transform: rotate(90deg) translateX(-70px);
+}
+
+.map {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+}
+
+.section-students {
+    padding: 15px;
+}
+
+.top-students {
+    padding: 50px;
+}
+
+.web-map {
+    width: 200px;
+}
+
+
+/* Стили для страницы направления */
+
+.directions-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.directions-wrapper section {
+    padding-top: 15px;
+}
+
+.directions {
+    margin-left: 71px;
+    text-align: left;
+}
+
+.directions h2 {
+    text-align: left;
+    padding-top: 120px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-directions-offer {
+    width: 100%;
+    background-image: url(images/directions-bg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.directions-content {
+    display: flex;
+    margin: 80px;
+    background: #F1F1F1;
+    width: 80%;
+    margin: auto;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.directions-text {
+    padding: 20px;
+    padding-top: 70px;
+    text-align: left;
+}
+
+.directions-text p {
+    margin-top: 60px;
+}
+
+.directions-text h2 {
+    text-align: left;
+}
+
+.directions-text hr {
+    width: 300px;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.directions-img img {
+    width: 500px;
+    padding: 20px;
+}
+
+.directions-content-2 {
+    display: flex;
+    background-image: url(images/bg-pi.jpg);
+    width: 100%;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.directions-text-2 {
+    padding: 20px;
+    padding-top: 70px;
+    text-align: left;
+}
+
+.directions-text-2 h2 {
+    text-align: left;
+}
+
+.directions-text-2 hr {
+    width: 300px;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.directions-content-2 h2 {
+    color: #fff;
+}
+
+.directions-img-2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.directions-img img {
+    height: 500px;
+}
+
+
+/* Стили для страницы Абитуриентам */
+
+.applicants-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.applicants-wrapper section {
+    padding-top: 15px;
+}
+
+.applicants {
+    margin-left: 71px;
+    text-align: left;
+}
+
+.applicants h2 {
+    text-align: left;
+    padding-top: 120px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-applicants-offer {
+    width: 100%;
+    background-image: url(images/welcome.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.applicants-content {
+    display: flex;
+    margin: 80px;
+    background: #F1F1F1;
+    width: 80%;
+    margin: auto;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+
+.applicants-text {
+    text-align: left;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.applicants-text-color {
+    width: 60%;
+    padding: 33px;
+    margin: auto;
+    background: yellow;
+    color: #2E2D2D;
+}
+
+.applicants-text-bg {
+    background-image: url(images/stud-bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applicants-text h2 {
+    text-align: left;
+}
+
+.applicants-text hr {
+    width: 300px;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.applicants-text-img-1 {
+    background: rgba(37, 98, 146);
+    padding: 30px;
+    text-align: left;
+    color: #fff;
+}
+
+.applicants-text-img-2 {
+    background: #fff;
+    text-align: left;
+    color: #000;
+    display: flex;
+}
+
+.applicants-text-img-3 {
+    background: #4A4A4A;
+    padding: 35px;
+    color: #fff;
+}
+
+.applicants-text-img-1 h3 {
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+
+.applicants-text-img-3 h3 {
+    color: #fff;
+    text-align: left;
+}
+
+
+/* Стили для страницы Студенческий совет */
+
+.council-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.council-wrapper section {
+    padding-top: 15px;
+}
+
+.council {
+    margin-left: 71px;
+    text-align: left;
+}
+
+.council h2 {
+    text-align: left;
+    padding-top: 120px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-council-offer {
+    width: 100%;
+    background-image: url(images/sutd-soviet-bg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.section-students-council hr {
+    height: 50px;
+    border: 0;
+}
+
+.top-council-students {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.council-students,
+.council-students h4 {
+    width: 300px;
+    text-align: center;
+    color: black;
+}
+
+.council-students {
+    margin: auto;
+}
+
+.council-students p {
+    color: #C0C0C0;
+}
+
+.council-students img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.section-students-council h2 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.council-info {
+    display: flex;
+    background: #DFDFDF;
+}
+
+.council-info-text {
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.council-info-text h3 {
+    padding: 50px;
+}
+
+.council-info-text p {
+    margin: auto;
+    text-align: left;
+    padding: 50px;
+}
+
+.council-info-img {
+    width: 50%;
+}
+
+.council-info-img img {
+    width: 100%;
+}
+
+
+/* Стили для старницы Клубы и Кружки */
+
+.mugs-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.mugs {
+    margin-left: 71px;
+    text-align: left;
+}
+
+.mugs h2 {
+    text-align: left;
+    padding-top: 120px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-mugs-offer {
+    width: 100%;
+    background-image: url(images/mugs-bg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.mugs-info-text {
+    width: 100%;
+    text-align: center;
+    background: #dfdfdf;
+}
+
+.mugs-info-text p {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 50px;
+}
+
+.mugs-clubs {
+    padding: 15px;
+    display: flex;
+}
+
+.mugs-clubs-container {
+    width: 33%;
+    padding-right: 5px;
+    color: #fff;
+}
+
+.mugs-clubs-container h1 {
+    text-align: left;
+    color: #fff;
+}
+
+.voice {
+    background-image: url(images/voice-bg.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+
+.voice:hover {
+    background-image: url(images/voice-color-bg.jpg);
+}
+
+.chess {
+    background-image: url(images/chess-bg.jpg);
+    height: 29%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.chess:hover {
+    background-image: url(images/chess-color-bg.jpg);
+}
+
+.cinema {
+    background-image: url(images/cinema-bg.jpg);
+    height: 69%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cinema:hover {
+    background-image: url(images/cinema-color-bg.jpg);
+}
+
+.dance {
+    background-image: url(images/dance-bg.jpg);
+    height: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dance:hover {
+    background-image: url(images/dance-color-bg.jpg);
+}
+
+.english {
+    background-image: url(images/english-bg.jpg);
+    height: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.english:hover {
+    background-image: url(images/english-color-bg.jpg);
+}
+
+.clubs-text {
+    padding: 30px;
+    bottom: 0;
+}
+
+
+/* Клубы И Кружки Кинематрогофия */
+
+.mugs-cinema {
+    display: flex;
+}
+
+.mugs-cinema-text {
+    width: 50%;
+}
+
+.mugs-cinema-text-bg {
+    background: #dfdfdf;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.mugs-cinema-text-bg h1 {
+    font-size: 70px;
+    background: #fff;
+    line-height: 100px;
+    color: #000;
+}
+
+.mugs-cinema-text-bg p {
+    padding: 15px;
+}
+
+.mugs-cinema-text-bg img {
+    width: 100%;
+}
+
+.mugs-cinema-img {
+    width: 50%;
+    margin: auto;
+}
+
+.mugs-cinema-img-cont {
+    margin: auto;
+}
+
+
+/* for logo  */
+
+.ABJ-logo {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+}

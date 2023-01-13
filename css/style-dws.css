@@ -1,0 +1,368 @@
+        /* CSS Document */
+        
+        .header a {
+            color: #22679f;
+        }
+        
+        .nav-logo {
+            display: flex;
+            margin: auto;
+        }
+        
+        .nav-const {
+            margin-left: auto;
+            margin-right: 0;
+            margin-top: -100px
+        }
+        
+        .nav-info {
+            margin-top: 22px;
+        }
+        
+        .nav-logo ul li {
+            display: inline;
+            margin-right: 100px;
+        }
+        
+        .nav-icon {
+            width: 15px;
+        }
+        
+        .nav-bar {
+            width: 100%;
+            display: flex;
+            background: #e3e3e3;
+            transition: .3s;
+        }
+        
+        .dws-menu {
+            margin-right: auto;
+            margin-left: 300px;
+        }
+        
+        .header-btn {
+            background: #22679f;
+            padding: 20px;
+            border: none;
+            color: #fff;
+        }
+        
+        nav ul {
+            padding: 0;
+            margin: auto;
+            list-style: none;
+            position: relative;
+        }
+        
+        nav ul li {
+            display: inline-block;
+        }
+        
+        nav ul li a:hover {
+            color: rgba(63, 52, 52, 0.404);
+        }
+        
+        nav a {
+            display: block;
+            padding: 0 50px;
+            line-height: 60px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .header-logo {
+            width: 200px;
+            margin-left: 15px;
+        }
+        /* Hide Dropdowns by Default */
+        
+        nav ul ul {
+            display: none;
+            position: absolute;
+            transition: all .3s;
+            z-index: 200;
+            top: 60px;
+            /* the height of the main nav */
+        }
+        /* Display Dropdowns on Hover */
+        
+        nav ul li:hover>ul {
+            display: inherit;
+            background: #dbdbdb;
+        }
+        /* Fisrt Tier Dropdown */
+        
+        nav ul ul li {
+            width: 165px;
+            float: none;
+            display: list-item;
+            position: relative;
+        }
+        /* Second, Third and more Tiers	*/
+        
+        nav ul ul ul li {
+            position: relative;
+            top: -60px;
+            left: 170px;
+        }
+        
+        .nav-input {
+            margin: auto;
+            margin-left: auto;
+            margin-right: 15px;
+        }
+        
+        .hamburger {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .hamburger img {
+            cursor: pointer;
+            width: 20px;
+            margin: 5px;
+        }
+        
+        .menu-close {
+            display: none;
+        }
+        
+        .m-nav {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-open {
+            width: 100%;
+            display: none;
+        }
+        
+        .m-nav ul li {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .m-nav ul li img {
+            width: 12px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        .m-nav .nav-open-hiden {
+            background: #ffffff;
+            display: none;
+        }
+        
+        .hamburger {
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .hamburger img {
+            cursor: pointer;
+            width: 20px;
+            margin: 5px;
+        }
+        
+        .menu-close {
+            display: none;
+        }
+        
+        .m-nav {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-open {
+            width: 100%;
+            display: none;
+        }
+        
+        .m-nav ul li {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .m-nav ul li img {
+            width: 12px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        .m-nav .nav-open-hiden {
+            background: #ffffff;
+            display: none;
+            color: black;
+        }
+        
+        @media (max-width: 1420px) {
+            .header {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 1420px) {
+            div.hamburger {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 1420px) {
+            canvas {
+                width: 100%;
+                height: 50vh;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .section-offer.section1 {
+                background-image: url(images/mob.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .section-offer {
+                background-image: url(images/home-bg.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                display: grid;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 1100px) {
+            .icons img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        
+        @media (max-width: 1100px) {
+            .icons h3 {
+                font-size: 15px;
+                display: flex;
+            }
+        }
+        
+        @media (max-width: 1300px) {
+            .icons p {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .offer-icons {
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .offer-icons1 {
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .advantages {
+                display: block;
+                margin: auto;
+                margin-top: 15px;
+                width: 60%;
+                color: #999999;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .header-logo {
+                width: 80px;
+                margin-left: 15px;
+                display: flex;
+                justify-content: flex-start;
+                margin-top: -30px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .nav-info {
+                display: flex;
+                margin-top: 0px;
+                margin-left: -35px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .header-btn {
+                background-color: #256292;
+                width: 182px;
+                height: 26px;
+                padding: 0px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .nav-info li a {
+                width: 182px;
+                height: 26px;
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                font-size: 12px;
+                background-color: #C0C0C0;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .nav-const {
+                display: flex;
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .nav-logo ul li {
+                margin-right: 0px;
+                display: flex;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .section {
+                padding-top: 15px;
+            }
+        }
+        
+        .offer-text-ind {
+            display: flex;
+            margin: auto;
+            width: 60%;
+            padding-top: 50px;
+        }
+        
+        .offer-text-ind .h3 {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .offer-text-ind .h3 h3 {
+            color: #FFD52E;
+        }
+        
+        .offer-text-ind .p {
+            width: 70%;
+            color: #fff;
+        }
