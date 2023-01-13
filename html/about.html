@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/about.css">
+
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+
+<div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+  <ul class="menu__box">
+    <li><a class="menu__item" href="/index.html">Главная</a></li>
+        <li><a class="menu__item" href="/html/about.html">О нас</a></li>
+        <li><a class="menu__item" href="/html/map.html">Контакты</a></li>
+        <li><a class="menu__item" href="/html/regus.html">Реквизиты</a></li>
+        <li><a class="menu__item" href="/html/cooperator.html">Управление</a></li>
+
+  </ul>
+</div>
+
+  <html class="h-full bg-gray-50">
+  <body class="h-full">
+    <header
+      class="fixed top-0 w-full z-30 bg-white-500 transition-all pt-2 shadow-lg"
+    >
+      <nav
+        class="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4"
+      >
+        <div class="col-start-1 col-end-2 flex items-center">
+          <img class="h-16 w-16" src="/img/logo.jpg" alt="" />
+        </div>
+        <ul
+          class="hidden md:flex col-start-4 col-end-8 text-black-500 items-center"
+        >
+          <a href="/index.html"
+            class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate"
+            >Главная</a
+          >
+          <a href="/html/about.html"
+            class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate"
+            >О нас</a
+          >
+          <a href="/html/map.html"
+            class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate"
+            >Контакты</a
+          >
+          <a href="/html/regus.html"
+            class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate"
+            >Реквизиты</a
+          >
+          <a href="/html/cooperator.html"
+          class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate">Управление</a>
+        </ul>
+        <div
+          class="col-start-10 col-end-12 font-medium flex justify-end items-center"
+        >
+          <a
+            class="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all"
+            href="/html/loginl.html"
+          >
+            Sign In</a link
+>
+          
+        </div>
+      </nav>
+    </header>
+
+    <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="overflow-hidden bg-white shadow sm:rounded-lg mt-10">
+    <div class="px 4 py 5 sm:px 6 mt-20">
+      <h3 class="text-lg font-medium leading-6 text-gray-900 text-center">Информация о фонде </h3>
+    
+    </div>
+    <div class="border-t border-gray-200">
+      <dl>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">Полное название</dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">HELP THE NEEDY </dd>
+        </div>
+        <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">ДАТА ОСНОВАНИЯ </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">1998 24 марта</dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">Email address</dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">helptheneedy.com</dd>
+        </div>
+        <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">Фонд</dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">Общественно благотворительный фонд</dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">О нас</dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">ОБЩЕСТВЕННЫЙ ФОНД «HELP THE NEEDY»
+Общественный благотворительный фонд "Help the needy" осуществляет свою благотворитульную деятельность на территории Кыргызской Республики с 1998 года. Все наши действия в целом сводятся к оказанию действенной помощи нашей республике в преодолении имеющихся трудностей и существующих проблем, а их усилия и разного рода участие в нашей жизни направлены на активизацию процессов становления и укрепления правового государства и гражданского общества, а также на содействие в формировании основ дальнейшего развития.
+
+Сфера деятельности Общественного фонда - это оказание помощи детям, онкологически больным пациентам, инвалидам, нуждающимся, малоимущим.
+
+Общественный фонд «Help the needy» был создан 24 марта 1998года, под именем "СООП". А 8 ноября 2016 года перерегистрирован, получив новое имя "Help the needy" (Помощь нуждающимся).
+
+На  протяжении вот уже 25 лет наш фонд оказывает гуманитарную помощь инвалидам, нуждающимся, детям. Проводит различные мероприятия для улучшение качества жизни в Кыргызстане. Сотрудников фонда инвалиды знают не понаслышке, каждому вручают  то теплую одежду, то  постельные принадлежности или  предметы домашнего обихода, в которых они очень нуждаются .
+
+В архивах фонда хранятся списки инвалидов  по республике с подписями, кому была оказана адресная помощь.
+
+На протяжении 25 лет своего существования Фонд поддерживает жителей Нижне-Серафимовского дома престарелых и инвалидов Чуйской области
+Дому интернату для  престарелых г. Бишкек Ленинского района
+Адресная помощь малоимущим  семьям по всему Кыргызстану
+504 инвалида, получившие ранения
+7 тыс. участников ВОВ
+3 человека, без вести пропавшие</dd>
+        </div>
+        <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500">Документы</dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+            <ul role="list" class="divide-y divide-gray-200 rounded-md border border-gray-200">
+              <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
+                <div class="flex w-0 flex-1 items-center">
+                  <!-- Heroicon name: mini/paper-clip -->
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="ml-2 w-0 flex-1 truncate">устав.pdf</span>
+                </div>
+                <div class="ml-4 flex-shrink-0">
+                  <a href="/img/устав.doc" class="font-medium text-indigo-600 hover:text-indigo-500" download="">Download</a>
+                </div>
+              </li>
+              <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
+                <div class="flex w-0 flex-1 items-center">
+                  <!-- Heroicon name: mini/paper-clip -->
+                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="ml-2 w-0 flex-1 truncate">свидетельство.pdf</span>
+                </div>
+                <div class="ml-4 flex-shrink-0">
+                  <a href="/img/свид.jpg" class="font-medium text-indigo-600 hover:text-indigo-500" download="">Download</a>
+                </div>
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+  
+  </body>
+  </html>
